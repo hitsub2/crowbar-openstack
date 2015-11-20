@@ -1,27 +1,21 @@
 en:
   docs:
-    deployment:
-      heading: 'Deployment Resources'
-      order: 100
+    additional:
+      heading: 'Additional Resources'
+      order: 200
       items:
-        crowbar_deployment_guide:
-          text: 'Crowbar Deployment Guide'
-          pdf: '/docs/crowbar_deployment_guide.pdf'
-          order: 90
-        openstack_users_guide:
-          text: 'OpenStack User Guide'
-          pdf: '/docs/openstack_users_guide.pdf'
+        end_user_guide:
+          text: 'End User Guide'
+          link: '/docs/user/'
+          pdf: '/docs/suse-openstack-cloud-user_en.pdf'
+          order: 100
+        admin_user_guide:
+          text: 'Admin User Guide'
+          link: '/docs/admin/'
+          pdf: '/docs/suse-openstack-cloud-admin_en.pdf'
           order: 200
-
-# Here's an example of how to add links for downstream documentation
-#    others:
-#      heading: 'Other Resources'
-#      items:
-#        end_user_guide:
-#          text: 'End User Guide'
-#          link: '/docs/user/'
-#          pdf: '/docs/user_en.pdf'
-#        admin_user_guide:
-#          text: 'Admin User Guide'
-#          link: '/docs/admin/'
-#          pdf: '/docs/admin_en.pdf'
+        supplement_guide:
+          text: 'Supplement to Admin User Guide and End User Guide'
+          link: '/docs/supplement/'
+          pdf: '/docs/suse-openstack-cloud-supplement_en.pdf'
+          order: 300
